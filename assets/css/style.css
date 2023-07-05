@@ -49,7 +49,7 @@ body {
   background-image: url(assets/pepeimg.html);
   height: max-content;
   width: 100%;
-  background-color: #f78aa9;
+  background-color: #add8e6;
 
 }
 
@@ -1818,6 +1818,7 @@ a {
 
 .presale {
   padding: 50px;
+  margin-top: -140px;
 }
 
 .presale-box {
