@@ -1825,7 +1825,7 @@ a {
   font-family: 'Courier New', Courier, monospace;
   width: 110%;
   transform: rotate(5deg);
-  height: 65px;
+  height: 100px;
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
