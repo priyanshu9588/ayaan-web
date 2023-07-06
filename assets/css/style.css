@@ -1832,7 +1832,7 @@ a {
   top: -65px;
   left: -10px;
   z-index: 1;
-  margin-bottom: -70px;
+  margin-bottom: -180px;
 }
 
 .presale {
@@ -2054,7 +2054,6 @@ a {
   top: 50px;
   left: 30px;
   transform: rotate(0deg);
-  z-index: 1;
 }
 
 .v1_about_us_img1 {
@@ -2074,6 +2073,7 @@ a {
 
 .v1_about_us_img1 img {
   border-radius: 30px;
+  z-index: 5;
 }
 
 .v1_about_us_img1_shapes {
