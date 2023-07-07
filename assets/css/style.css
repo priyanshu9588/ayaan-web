@@ -1877,27 +1877,30 @@ a {
 
 .abcdefd h1 {
   font-weight: 800;
-  font-size: 140px;
+  font-size: 200px;
   padding: 15px;
   color: #000;
+  width: 100%;
+  margin-top: -30px
 }
 
 .abcdefd img {
-  width: 20%;
-  height: 20%;
+  width: 35%;
+  height: 35%;
   border-radius: 30px;
 }
 
 .abcdefd .zaza {
   position: relative;
-  left: -15%;
   display: flex;
   align-self: center;
+  margin-right: 6%;
 }
 
 .abcdefd .end {
   position: relative;
   right: 4%;
+  top: calc(18% - 60px);
 }
 
 .abcdefd .heading {
