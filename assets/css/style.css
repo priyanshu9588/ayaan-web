@@ -1877,21 +1877,20 @@ a {
 
 .abcdefd h1 {
   font-weight: 800;
-  font-size: 80px;
+  font-size: 100px;
   padding: 15px;
   color: #000;
 }
 
 .abcdefd img {
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
   border-radius: 30px;
 }
 
 .abcdefd .end {
   position: relative;
-  top: 25%;
-  right: 3%;
+  right: 4%;
 }
 
 .abcdefd .heading {
@@ -1921,10 +1920,16 @@ a {
   padding: 13px;
   color: #000;
   font-weight: 800;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
-.abcdefd .twitter {
-  background-color: #3fa7f3;
+.abcdefd .twitter:hover {
+  background-color: #add8e6;
+}
+
+.abcdefd .telegram:hover {
+  background-color: #add8e6;
 }
 
 .dosmt {
@@ -2058,8 +2063,21 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .seperator {
-    display: block;
+  .abcdefd .seperator {
+    flex-direction: column;
+  }
+
+  .abcdefd img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    position: relative;
+    left: -20px
   }
 }
 
