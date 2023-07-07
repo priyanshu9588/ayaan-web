@@ -1836,6 +1836,14 @@ a {
   margin-bottom: -200px;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
 .abcdefd {
   margin: 50px;
   padding: 50px;
@@ -1875,23 +1883,24 @@ a {
 }
 
 .abcdefd img {
-  width: 60%;
-  height: 60%;
+  width: 40%;
+  height: 40%;
   border-radius: 30px;
 }
 
 .abcdefd .end {
   position: relative;
-  top: 23%;
+  top: 25%;
   right: 3%;
 }
 
 .abcdefd .heading {
-  background-color: #ffeb02;
+  background-color: #add8e6;
   border-radius: 50px;
-  border: 1px solid #000;
   width: fit-content;
   padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   color: #000;
   font-weight: 800;
 }
@@ -1905,6 +1914,19 @@ a {
   font-weight: 800;
 }
 
+.abcdefd .social {
+  border-radius: 50px;
+  border: 1px solid #000;
+  width: fit-content;
+  padding: 13px;
+  color: #000;
+  font-weight: 800;
+}
+
+.abcdefd .twitter {
+  background-color: #3fa7f3;
+}
+
 .dosmt {
   margin: 50px;
   padding: 50px;
@@ -1912,11 +1934,55 @@ a {
   border-radius: 30px;
 }
 
+.dosmt .inside {
+  padding: 0 150px;
+  margin-top: 50px;
+}
+
 .dosmt h1 {
   font-weight: 800;
   font-size: 40px;
   padding: 10px;
   color: #000;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 30px;
+  overflow: hidden;
+  /* Optional - hides any content that exceeds the rounded corners */
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+.table tfoot {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table tfoot th,
+.table tfoot td {
+  padding: 8px;
+  text-align: left;
+  border-top: 1px solid #ddd;
 }
 
 .presale {
@@ -1967,10 +2033,9 @@ a {
 }
 
 .presale-item-heading {
-  background-color: #ffeb02;
+  background-color: #add8e6;
   border-radius: 50px;
   float: left;
-  border: 1px solid #000;
 }
 
 .presale-item-heading h1 {
@@ -1992,6 +2057,7 @@ a {
   .presale-items {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .seperator {
     display: block;
   }
