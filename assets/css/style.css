@@ -1890,7 +1890,9 @@ a {
 
 .abcdefd .zaza {
   position: relative;
-  left: -35%;
+  left: -15%;
+  display: flex;
+  align-self: center;
 }
 
 .abcdefd .end {
