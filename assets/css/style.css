@@ -49,7 +49,7 @@ body {
   background-image: url(assets/pepeimg.html);
   height: max-content;
   width: 100%;
-  background-color: #add8e6;
+  background-color: #cceefa;
 
 }
 
@@ -1804,7 +1804,7 @@ a {
   font-size: 30px;
   padding: 10px;
   font-weight: 800;
-  color: #add8e6;
+  color: #cceefa;
   font-family: 'Courier New', Courier, monospace;
   background-color: #fff;
   width: 110vw;
@@ -1819,10 +1819,10 @@ a {
 }
 
 .marquee2 {
-  background-color: #add8e6;
+  background-color: #cceefa;
   font-size: 30px;
   font-weight: 800;
-  color: #add8e6;
+  color: #cceefa;
   font-family: 'Courier New', Courier, monospace;
   width: 110%;
   transform: rotate(5deg);
@@ -1894,7 +1894,7 @@ a {
 }
 
 .abcdefd .heading {
-  background-color: #add8e6;
+  background-color: #cceefa;
   border-radius: 50px;
   width: fit-content;
   padding: 5px;
@@ -1925,11 +1925,11 @@ a {
 }
 
 .abcdefd .twitter:hover {
-  background-color: #add8e6;
+  background-color: #cceefa;
 }
 
 .abcdefd .telegram:hover {
-  background-color: #add8e6;
+  background-color: #cceefa;
 }
 
 .dosmt {
@@ -2038,7 +2038,6 @@ a {
 }
 
 .presale-item-heading {
-  background-color: #add8e6;
   border-radius: 50px;
   float: left;
 }
