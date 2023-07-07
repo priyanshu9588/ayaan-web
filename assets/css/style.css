@@ -1881,7 +1881,6 @@ a {
   padding: 15px;
   color: #000;
   width: 100%;
-  margin-top: -30px
 }
 
 .abcdefd img {
@@ -1894,13 +1893,13 @@ a {
   position: relative;
   display: flex;
   align-self: center;
-  margin-right: 6%;
+  margin-right: 5%;
 }
 
 .abcdefd .end {
   position: relative;
   right: 4%;
-  top: calc(18% - 60px);
+  margin-top: 4%;
 }
 
 .abcdefd .heading {
@@ -2066,7 +2065,7 @@ a {
   margin-top: 70px;
   padding: 5px;
   display: block;
-  font-weight: 400;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
