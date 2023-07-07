@@ -1836,9 +1836,92 @@ a {
   margin-bottom: -200px;
 }
 
+.abcdefd {
+  margin: 50px;
+  padding: 50px;
+  background-color: #FFF;
+  border-radius: 30px;
+  margin-top: -110px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.geniun-space {
+  margin: 10px;
+}
+
+.abcdefd .seperator {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.abcdefd h1 {
+  font-weight: 800;
+  font-size: 80px;
+  padding: 15px;
+  color: #000;
+}
+
+.abcdefd img {
+  width: 60%;
+  height: 60%;
+  border-radius: 30px;
+}
+
+.abcdefd .end {
+  position: relative;
+  top: 23%;
+  right: 3%;
+}
+
+.abcdefd .heading {
+  background-color: #ffeb02;
+  border-radius: 50px;
+  border: 1px solid #000;
+  width: fit-content;
+  padding: 5px;
+  color: #000;
+  font-weight: 800;
+}
+
+.abcdefd .footer {
+  border-radius: 50px;
+  border: 1px solid #000;
+  width: fit-content;
+  padding: 15px;
+  color: #000;
+  font-weight: 800;
+}
+
+.dosmt {
+  margin: 50px;
+  padding: 50px;
+  background-color: #FFF;
+  border-radius: 30px;
+}
+
+.dosmt h1 {
+  font-weight: 800;
+  font-size: 40px;
+  padding: 10px;
+  color: #000;
+}
+
 .presale {
   padding: 50px;
-  margin-top: -140px;
+  margin-top: -10px;
 }
 
 .presale-box {
@@ -1908,6 +1991,9 @@ a {
 @media screen and (max-width: 1200px) {
   .presale-items {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .seperator {
+    display: block;
   }
 }
 
