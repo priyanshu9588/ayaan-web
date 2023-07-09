@@ -1815,6 +1815,7 @@ a {
   z-index: 5;
   position: relative;
   left: -10px;
+  margin-top: -3%;
 }
 
 .marquee2 {
@@ -1825,14 +1826,14 @@ a {
   font-family: 'Courier New', Courier, monospace;
   width: 110%;
   transform: rotate(5deg);
-  height: 100px;
+  height: 110px;
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
   top: -65px;
   left: -10px;
   z-index: 1;
-  margin-bottom: -180px;
+  margin-bottom: -200px;
 }
 
 .presale {
